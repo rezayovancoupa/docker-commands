@@ -1,0 +1,1 @@
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=llama123!" -p 5000:1433 --name sql1 -h sql1 --user root -d mcr.microsoft.com/mssql/server:2019-latest
